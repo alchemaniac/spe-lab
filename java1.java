@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class caladd{
+public class calsub{
 	public static void main(String args[]){
 		float a,b,res;
 		char choice, ch;
 		Scanner scan=new Scanner(System.in);
 		do{
-		System.out.println("1. ADD TWO NUMBERS");
+		System.out.println("1. SUB TWO NUMBERS");
 		System.out.println("2. EXIT");
 		System.out.println("Enter choice: ");
 		choice=scan.next().charAt(0);
@@ -13,7 +13,7 @@ public class caladd{
 			case '1': System.out.println("Input two numbers: ");
 				  a=scan.nextFloat();
 				  b=scan.nextFloat();
-				  res=a+b;
+				  res=a-b;
 				  System.out.println("Result is "+res);
 				  break;
 			case '2': System.exit(0);
