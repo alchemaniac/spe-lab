@@ -8,7 +8,7 @@ public class java1{
 		System.out.println("1. SUB TWO NUMBERS");
 		System.out.println("2. EXIT");
 		System.out.println("Enter choice: ");
-		choice=scan.nextLine();
+		//choice=scan.nextLine();
 		/*switch(choice){
 			case '1': System.out.println("Input two numbers: ");
 				  a=scan.nextFloat();
