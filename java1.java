@@ -2,14 +2,14 @@ import java.util.Scanner;
 public class java1{
 	public static void main(String args[]){
 		float a,b,res;
-		char choice, ch;
+		String choice, ch;
 		Scanner scan=new Scanner(System.in);
-		do{
+		//do{
 		System.out.println("1. SUB TWO NUMBERS");
 		System.out.println("2. EXIT");
 		System.out.println("Enter choice: ");
-		choice=scan.next().charAt(0);
-		switch(choice){
+		choice=scan.nextLine();
+		/*switch(choice){
 			case '1': System.out.println("Input two numbers: ");
 				  a=scan.nextFloat();
 				  b=scan.nextFloat();
@@ -22,6 +22,6 @@ public class java1{
 				  break;
 		}
 		System.out.println("\n------------------------------\n");
-		}while(choice!='2');
+		}while(choice!='2');*/
 	}
 }
