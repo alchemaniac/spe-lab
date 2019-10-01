@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class calsub{
         public static void main(String args[]){
                 float a,b,res;
-                System.out.println("%d %f %f",args[0],args[1],args[2]);
+                System.out.println(args[0]args[1]args[2]);
                 int choice=Integer.parseInt(args[0]);
                 System.out.println("1. SUBTRACT TWO NUMBERS");
                 System.out.println("2. EXIT");
