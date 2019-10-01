@@ -7,7 +7,6 @@ public class calsub{
                 System.out.println("1. SUBTRACT TWO NUMBERS");
                 System.out.println("2. EXIT");
                 System.out.println("Enter choice: ");
-                choice=scan.next().charAt(0);
                 switch(choice){
                         case '1': System.out.println("Input two numbers: ");
                                   a=args[1];
@@ -21,6 +20,6 @@ public class calsub{
                                   break;
                 }
                 System.out.println("\n------------------------------\n");
-                }while(choice!='2');
+               }while(choice!='2');
         }
 }
