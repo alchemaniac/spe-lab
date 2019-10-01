@@ -2,8 +2,7 @@ import java.util.Scanner;
 public class calsub{
         public static void main(String args[]){
                 float a,b,res;
-                char choice, ch;
-                Scanner scan=new Scanner(System.in);
+                int choice=args[0];
                 do{
                 System.out.println("1. SUBTRACT TWO NUMBERS");
                 System.out.println("2. EXIT");
@@ -11,8 +10,8 @@ public class calsub{
                 choice=scan.next().charAt(0);
                 switch(choice){
                         case '1': System.out.println("Input two numbers: ");
-                                  a=scan.nextFloat();
-                                  b=scan.nextFloat();
+                                  a=args[1];
+                                  b=args[2];
                                   res=a-b;
                                   System.out.println("Result is "+res);
                                   break;
